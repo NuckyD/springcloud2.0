@@ -19,11 +19,11 @@ public class PaymentController {
     private PaymentService paymentService;
 
     @PostMapping(value = "/create")
-    public CommonResult create(Payment payment){
+    public CommonResult create(@RequestBody Payment payment){
         int result = paymentService.create(payment);
         log.info("插入结果："+ result);
         if(result > 0){
-            return new CommonResult(200, "SUCCESS");
+            return new CommonResult(200, "SUCCESS", result);
         } else {
             return new CommonResult(400, "FAIL");
         }
@@ -34,9 +34,9 @@ public class PaymentController {
         Payment payment = paymentService.getPaymentById(id);
         log.info("查询结果："+ payment);
         if(payment == null){
-            return new CommonResult(200, "FAIL");
+            return new CommonResult(400, "FAIL");
         } else {
-            return new CommonResult(400, "SUCCESS", payment);
+            return new CommonResult(200, "SUCCESS", payment);
         }
     }
 }
