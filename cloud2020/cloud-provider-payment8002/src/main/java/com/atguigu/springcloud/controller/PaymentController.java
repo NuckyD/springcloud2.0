@@ -3,9 +3,7 @@ package com.atguigu.springcloud.controller;
 import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
 import com.atguigu.springcloud.service.PaymentService;
-import lombok.extern.java.Log;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.ibatis.annotations.Mapper;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -61,5 +59,11 @@ public class PaymentController {
             log.info(instance.getServiceId() + "\t" + instance.getHost() + "\t" + instance.getPort() + "\t" + instance.getUri() + "\t");
         }
         return this.discoveryClient;
+    }
+
+
+    @GetMapping("/port")
+    public String getServerPort(){
+        return serverPort;
     }
 }
