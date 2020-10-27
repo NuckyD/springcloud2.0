@@ -30,6 +30,11 @@ public class OrderController {
     @Resource
     private DiscoveryClient discoveryClient;
 
+    @GetMapping("/hello")
+    public String hello(){
+        return "hello word";
+    }
+
     @GetMapping("consumer/payment/create")
     public CommonResult<Payment> create(Payment payment){
         return restTemplate.postForObject(PAYMENT_URL + "/payment/create", payment, CommonResult.class);
@@ -51,5 +56,12 @@ public class OrderController {
         }
 
         return "Fail";
+    }
+    // ====================> zipkin+sleuth
+    @GetMapping("/consumer/payment/zipkin")
+    public String paymentZipkin()
+    {
+        String result = restTemplate.getForObject(PAYMENT_URL+"/payment/zipkin/", String.class);
+        return result;
     }
 }

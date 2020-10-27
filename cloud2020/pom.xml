@@ -27,6 +27,14 @@
         <module>cloud-gateway-gateway9527</module>
         <module>cloud-config-center-3344</module>
         <module>cloud-config-client-3355</module>
+        <module>cloud-config-client-3366</module>
+        <module>cloud-stream-rabbit-provider-8801</module>
+		<module>cloud-stream-rabbit-consumer-8802</module>
+		<module>cloud-stream-rabbit-consumer-8803</module>
+		<module>cloud-alibaba-payment-9001</module>
+		<module>cloud-alibaba-payment-9002</module>
+		<module>cloud-alibaba-cousumer-83</module>
+        <module>cloud-alibaba-config-3377</module>
     </modules>
 
 	<!-- 统一管理jar包版本 -->

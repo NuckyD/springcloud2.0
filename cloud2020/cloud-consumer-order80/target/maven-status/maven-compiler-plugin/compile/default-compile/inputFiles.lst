@@ -1,6 +1,6 @@
-F:\项目\springcloud2.0\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\OrderMain80.java
-F:\项目\springcloud2.0\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\ribbon\SelfRule.java
-F:\项目\springcloud2.0\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\controller\OrderController.java
-F:\项目\springcloud2.0\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\lb\MyLoadBalanceImpl.java
-F:\项目\springcloud2.0\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\lb\MyLoadBalance.java
-F:\项目\springcloud2.0\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\config\ApplicationContextConfig.java
+F:\学习项目\springcloud\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\ribbon\SelfRule.java
+F:\学习项目\springcloud\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\OrderMain80.java
+F:\学习项目\springcloud\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\config\ApplicationContextConfig.java
+F:\学习项目\springcloud\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\controller\OrderController.java
+F:\学习项目\springcloud\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\lb\MyLoadBalanceImpl.java
+F:\学习项目\springcloud\cloud2020\cloud-consumer-order80\src\main\java\com\atguigu\springcloud\lb\MyLoadBalance.java
