@@ -39,7 +39,11 @@
         <module>cloudalibaba-consumer-nacos-order84</module>
         <module>cloudalibaba-provider-payment9003</module>
         <module>cloudalibaba-provider-payment9004</module>
-    </modules>
+        <module>cloud-order-service-2001</module>
+        <module>cloud-storage-service-2002</module>
+        <module>cloud-account-service-2003</module>
+		<module>cloud-account-service-2004</module>
+	</modules>
 
 	<!-- 统一管理jar包版本 -->
 	<properties>
